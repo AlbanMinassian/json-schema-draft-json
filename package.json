@@ -2,6 +2,7 @@
   "name": "json-schema-draft-json",
   "version": "1.0.0",
   "description": "json content of file json-schema-draft-[04|06|07].json",
+  "type": "module",
   "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlbanMinassian/json-schema-draft-json/issues"
   },
-  "homepage": "https://github.com/AlbanMinassian/json-schema-draft-json#readme"
+  "homepage": "https://github.com/AlbanMinassian/json-schema-draft-json#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }
